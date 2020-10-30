@@ -1,0 +1,62 @@
+body{
+	position: fixed;
+}
+
+span{
+	position: relative;
+	left: 20px;
+}
+
+.btn-lg{
+	position: relative;
+	left: 20px;
+}
+
+/*.what{
+	float: right;
+	position: fixed;
+	left: 40px;
+}*/
+
+.me{
+	float: left;
+}
+
+/*.btn-lg{
+	position: relative;
+	left: 40px;
+}*/
+
+.myColour, .myColour2, .myColour3{
+	text-decoration: underline;
+	font-weight: 18px;
+	text-align: center;
+	height: 35px;
+}
+ 
+ .myColour{
+	 background-color: #FF66FF;
+ }
+ 
+  .myColour2{
+	 background-color: #66FFB3;
+ }
+ 
+  .myColour3{
+	 background-color: #00FFFF;
+ }
+ 
+.footer{
+  padding: 50px 0;
+  border: none;
+
+  &:before {
+    // full-width divider
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    max-width: 100%;
+    width: 100%;
+    border: 1px solid grey;
+  }
